@@ -1,0 +1,15 @@
+#Python cache
+__pycache__/
+*.pyc
+
+#Virtual envoiments
+venv/
+.env/
+
+#Pycharm /IDE
+.idea/
+
+#Jupyter checkpoints/
+
+#Model outputs(future use)
+models/
