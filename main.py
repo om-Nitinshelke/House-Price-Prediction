@@ -1,10 +1,12 @@
 from src.data_loader import load_data
-
-def main():
-    df=load_data()
-    print(df.head())
+from src.split import split_data
 
 
+df=load_data()
 
-if __name__=="__main__":
-    main()
+train_set,test_set=split_data(df,0.2)
+
+print("Train set:",len(train_set))
+print("Test set:",len(test_set))
+
+
