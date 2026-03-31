@@ -17,6 +17,16 @@ This project is created for educational purpose to understand the end to end mac
 ##Workflow
 1.Load dataset
 2.Split the data into training and test sets
+3.Perform data preprocessing (cleaning, encoding, feature preparation)
+
+##Data Preprocessing
+
+* Removed high-cardinality features such as `Locality` and `Amenities`
+* Separated features (X) and target variable (Price_in_Lakhs)
+* Applied one-hot encoding to categorical variables
+* Used `drop_first=True` to avoid redundant columns
+* Ensured same structure for train and test data using column alignment
+
 
 
 ##Disclaimer
