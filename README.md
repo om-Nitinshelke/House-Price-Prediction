@@ -59,6 +59,11 @@ Results:
 Conclusion:
 Random Forest was selected as the final model as it provided the best balance between bias and variance.
 
+## Status
+Project Completed.
+This project demonstrates an end-to-end machine learning workflow for house price prediction using
+multiple regression models.It is intended for educational purposes and serves as study project for 
+understanding data preprocessing,model training,evaluation,and model selection.
 
 
 
